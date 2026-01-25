@@ -1,5 +1,12 @@
-// This program will let you know about the operator in java with some operation.
+// This program will let you know about the Data types and Operator in java with some operation.
 class Operation {
+      //Data Types 
+      int a = 10; //integer
+      float b = 10.6;//Floating Point number
+      boolean bl = true;//Boolean
+      long l = 1000000;//long similar to integer but greater in range
+      char ch = 'a';//Character for inputing alphabets
+      String str = "StringDataType;//For taking input of strings
       public static void main(String [] args){
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter to Number on that Operation is going to perform");
