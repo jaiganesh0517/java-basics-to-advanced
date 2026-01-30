@@ -3,8 +3,9 @@
  and it also contribute to the cleanliness of the code*/
 
 /*Syntax 
- accessModifier returnType methodName(perimeter){}
- We always write method  in between the class and main method this the standard way of writing methods. 
+ accessModifier returnType methodName(perimeter){} and at the end of the function inside the back parenthesis we write return statement
+ We always write method  in between the class and main method this the 
+ standard way of writing methods. 
  we call the main from inside the main method */
 
 
