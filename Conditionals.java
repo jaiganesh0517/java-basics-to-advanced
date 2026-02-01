@@ -15,7 +15,7 @@ if(age >= 18){
    System.out.println("Candidate is not eligible for voting and he should wait for "+ 18-age +" years");
 }
 
-//Nested if else --> Give student grade according to the percentage they score(When we have to take decision on the basis of two or more condition)
+//Nested if else --> Give student grade according to the percentage they //score(When we have to take decision on the basis of two or more condition)
 float percentage = 75.75;
 if(percentage > 80.00){
   System.out.println("Student got A grade");
@@ -23,4 +23,33 @@ if(percentage > 80.00){
   System.out.println("Student got B grade");
 } else{
   System.out.println("Student got C grade");
+}
+
+//Switch Statements --> It's somehow similar to if-else-if Statements 
+//we have to print name of days according to It's number 1.....7
+int n = 6;
+switch(n){
+Case 1:
+  System.out.println(Monday);
+  break;
+Case 2:
+  System.out.println("Tuesday");
+  break;
+Case 3:
+  System.out.println("Wednesday");
+  break;
+Case 4:
+  System.out.println("Thursday");
+  break;
+Case 5:
+  System.out.println("Friday");
+  break;
+Case 6:
+  System.out.println("Saturday");
+  break;
+Case 7:
+  System.out.println("Sunday");
+  break;
+default:
+  System.out.println("Invalid input");
 }
