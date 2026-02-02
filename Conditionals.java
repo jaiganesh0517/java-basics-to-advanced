@@ -53,3 +53,16 @@ Case 7:
 default:
   System.out.println("Invalid input");
 }
+
+// Break statement is used to break the loop from that particular condition 
+//in above switch Case statements the break is used after each Case to 
+//break the loop after required condition. 
+break;
+
+ /*Continue statements it's basically used when we have to skip a condition 
+continue; print number from 1 to 5 except 4.*/
+for(int i = 1;i<5;i++){
+   if (i == 4){
+       continue;
+    System.out.println(i);
+}
