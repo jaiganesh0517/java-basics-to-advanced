@@ -20,3 +20,16 @@ class Operator{
      System.out.println( 9 / 3 / 3 ); // 1
      System.out.println( 9 / ( 3 / 3 )); // 9
      System.out.println( 9 / (3 / 3  ); // 3
+    //Shorthand operators --> += , -= , *= , /= , %= these are basically used to calculate the expression very easily and at the same time take less space.
+    //Unary operators--> i++ , ++i ,
+    int c = 10;
+    System.out.println(c++);//10
+    System.out.println(c);//11
+    System.out.println(++c);//12
+    System.out.println(c);//12
+    System.out.println(c--);//12
+    System.out.println(c);//11
+    System.out.println(--c);//10
+    System.out.println(c);//10
+    //Relational Operator--> == , > , >= , < , <= , !=
+    
