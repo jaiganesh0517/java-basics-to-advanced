@@ -32,4 +32,14 @@ class Operator{
     System.out.println(--c);//10
     System.out.println(c);//10
     //Relational Operator--> == , > , >= , < , <= , !=
-    
+    int v1 = 10;
+    int v2 = 9;
+    int v3 = 5;
+    int big = v1 > v2  ? (v1 > v3 ? v1 : v3) : (v2 > v3 ? v2 : v3);//largest amongs three numbers
+    System.out.println(big);//10
+    //Logical operator--> && , || , !
+    int year = 296;
+    boolean  isleep = false;
+    if(year % 400 == 0 ||( year % 4 == 0 && year %100 != 0)){
+      isLeap = true;
+    System.out.println(isLeap);//true
