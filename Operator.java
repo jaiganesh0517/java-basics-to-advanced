@@ -43,3 +43,13 @@ class Operator{
     if(year % 400 == 0 ||( year % 4 == 0 && year %100 != 0)){
       isLeap = true;
     System.out.println(isLeap);//true
+    //Betwise operator--> & , | , ^ , ~ , << , >> , >>>  used to perform operation on individual bits of binary values
+    int a1 = 5;
+    int a2 = 3;
+    System.out.println(( a & b));//1
+    System.out.println((a | b));//7
+    System.out.println((a ^ b));//6
+    System.out.println((~a));//-6
+    System.out.println((a << 1));//10
+    System.out.println((a >> 1));//2
+    System.out.println((-5 >>> 1));//big positive numbers
