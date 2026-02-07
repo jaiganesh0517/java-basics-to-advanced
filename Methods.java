@@ -14,9 +14,18 @@ class Methods{
    public static int sum(int a,int b){// method 
       return a + b; 
    }
+   //Multiplication table 
+   public static void multTable(int n ){
+        int i = 1;
+    while(i <= 10){
+        System.out.println( n + " * "+i+" = "+ n*i);
+        i++;
+      }
+   }
    public static void main(String [] args){
       int a = 2;
       int b = 4;
       System.out.println(sum(a,b)); //method call
+      System.out.println(multTable(a);
    } 
 } 
